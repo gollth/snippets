@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: roslaunch-launch
+# key:  roslaunch-launch
+# --
+<?xml version="1.0"?>
+<launch>
+
+  $0
+
+</launch>

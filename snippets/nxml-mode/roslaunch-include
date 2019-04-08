@@ -1,0 +1,5 @@
+# -*- mode: nxml-mode -*-
+# name: roslaunch-include
+# key: roslaunch-include
+# --
+<include file="$(find $1)/launch/$2" />

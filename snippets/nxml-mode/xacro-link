@@ -1,0 +1,22 @@
+# -*- mode: nxml-mode -*-
+# name: xacro-link
+# key:  xacro-link
+# --
+<link name="$1">
+
+  <visual>
+    <origin xyz="${2:0 0 0}" rpy="${3:0 0 0}" />
+    <geometry>
+        <mesh filename="$4" />
+    </geometry>
+  </visual>
+
+  <collision>
+    <origin xyz="$2" rpy="$3" />
+  </collision>
+
+  <inertial>
+     <origin xyz="$2" rpy="$3" />
+  </inertial>
+
+</link>

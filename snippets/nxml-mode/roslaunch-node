@@ -1,0 +1,7 @@
+# -*- mode: nxml-mode -*-
+# name: roslaunch-node
+# key:  roslaunch-node
+# --
+<node pkg="$1" type="$2" name="$2">
+  $0
+</node>
