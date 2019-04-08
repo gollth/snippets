@@ -1,0 +1,16 @@
+# -*- mode: python -*-
+# name: unittest
+# key: unittest
+# --
+#!/usr/bin/env python3
+
+from unittest import main, TestCase
+
+class ${1:TODOTest}(TestCase):
+
+    def test_${2:TODO}(self):
+        $0
+
+
+if __name__ == '__main__':
+   main()
