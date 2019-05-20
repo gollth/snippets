@@ -1,0 +1,5 @@
+# -*- mode: xml -*-
+# name: roslaunch-static-tf
+# key: roslaunch-static-tf
+# --
+<node pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 $1 $2 30" name="tf_static_$1_$2" />
