@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: xacro-include
+# key: xacro-include
+# --
+<xacro:include filename="$(find $1)/urdf/$2" />
