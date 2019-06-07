@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: roslaunch-robot-description
+# key: roslaunch-robot-description
+# --
+<param name="robot_description" command="xacro --inorder $(find $1)/robots/$2.urdf.xacro" />
