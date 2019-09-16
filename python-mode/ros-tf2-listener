@@ -1,0 +1,15 @@
+# -*- mode: python-mode -*-
+# name: ros-tf2-listener
+# key: ros-tf2-listener
+# --
+import tf2_ros as tf2
+
+
+buffer = tf2.Buffer()
+listener = tf2.TransformListener(buffer)
+
+
+try:
+    transform = buffer.lookup_transform(${1:map}, ${2:base_link}, ros.Time())
+except (tf2.LookupException, tf2.ConnectivityException, tf2.ExtrapolationException) as e:
+    ros.logerr(e)
