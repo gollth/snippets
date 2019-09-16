@@ -1,0 +1,9 @@
+# -*- mode: c++ -*-
+# name: ros-subscriber-callback
+# key: ros-subscriber-callback
+# --
+
+#include <$2/$3.h>
+void ${1:message_callback}(const ${2:std_msgs}::${3:String}::ConstPtr& msg) {
+  $0
+}

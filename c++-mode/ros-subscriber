@@ -1,0 +1,5 @@
+# -*- mode: c++mode -*-
+# name: ros-subscriber
+# key: ros-subscriber
+# --
+ros::Subscriber subscriber = nh.subscribe($1, 10, ${2:message_callback});
