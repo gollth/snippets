@@ -1,0 +1,5 @@
+# -*- mode: rust -*-
+# name: println-debug
+# key: println-debug
+# --
+println!("{:?}", $1);
