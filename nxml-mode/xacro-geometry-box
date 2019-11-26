@@ -1,0 +1,5 @@
+# -*- mode: nxml-mode -*-
+# name: xacro-geometry-box
+# key: xacro-geometry-box
+# --
+<geometry><box size="$1 $2 $3" /></geometry>

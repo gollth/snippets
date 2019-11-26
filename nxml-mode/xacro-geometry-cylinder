@@ -1,0 +1,5 @@
+# -*- mode: nxml-mode -*-
+# name: xacro-geometry-cylinder
+# key:  xacro-geometry-cylinder
+# --
+<geometry><cylinder radius="$1" length="$2" /></geometry>
