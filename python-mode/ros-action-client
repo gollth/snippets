@@ -1,0 +1,15 @@
+# -*- mode: python -*-
+# name: ros-action-client
+# key: ros-action-client
+# --
+import rospy as ros
+
+from actionlib import SimpleActionClient
+from $2.msg import $3, $3Goal
+
+
+client = SimpleActionClient('$1',$3Action)
+client.wait_for_server()
+
+goal = $3Goal()
+client.send_goal_and_wait(goal)
