@@ -1,0 +1,5 @@
+# -*- mode: rust -*-
+# name: allow-dead-code
+# key: allow-dead-code
+# --
+#![allow(dead_code)]

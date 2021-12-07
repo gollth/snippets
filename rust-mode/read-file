@@ -1,0 +1,5 @@
+# -*- mode: rust -*-
+# name: read-file
+# key: read-file
+# --
+let content = std::fs::read_to_string($1).expect("Whoopsie");
