@@ -1,0 +1,5 @@
+# -*- mode: rust -*-
+# name: rustfmt-skip
+# key: rustfmt-skip
+# --
+#[rustfmt::skip]
