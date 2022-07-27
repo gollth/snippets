@@ -1,0 +1,5 @@
+# -*- mode: sh -*-
+# name: sh-echo-error
+# key: sh-echo-error
+# --
+>&2 echo "$0"
