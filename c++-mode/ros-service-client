@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: ros-service-client
+# key: ros-service-client
+# --
+ros::ServiceClient client = nh.serviceClient<std_srvs::Trigger>("my_service");
+std_srvs::Trigger service;
+service.request = ...;
+client.call(service);
